@@ -22,12 +22,26 @@
 .bg-color-01{
     background-color: rgba(255, 144, 14, 0.1);
 }
+.btn-primary{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 144, 14, 1);
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}
 /* header styles */
 
 
 /* navbar styles */
 .navbar{
     justify-content: space-between;
+    align-items: center;
+}
+.brand-title{
+    font-size: 2.8rem;
+    font-weight: 700;
 }
 .nav-links{
 
@@ -44,4 +58,27 @@
 .navbar, .banner{
     max-width: 1440px;
     margin: 0 auto;
+}
+
+/* banner related styles */
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-img{
+    width: 100%;
+}
+
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
 }
