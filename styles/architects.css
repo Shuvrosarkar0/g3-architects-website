@@ -6,3 +6,42 @@
     font-weight: 400;
     font-style: normal;
 }
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+.dark-01{
+    color: rgba(19, 19, 19, 1);
+}
+.dark-02{
+    color: rgba(66, 66, 66, 1);
+}
+.dark-03{
+    color: rgba(114, 114, 114, 1);
+}
+.bg-color-01{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* header styles */
+
+
+/* navbar styles */
+.navbar{
+    justify-content: space-between;
+}
+.nav-links{
+
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
