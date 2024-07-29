@@ -137,6 +137,32 @@ gap: 24px;
     /* margin-top: 24px; */
 }
 
+/* features love and enjoy styles */
+.features{
+    gap: 140px;
+}
+
+#features-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+
+.feature-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    /* border: none; */
+    border-radius: 8px;
+}
+
+.feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
 
 /* some facts related styles */
 
